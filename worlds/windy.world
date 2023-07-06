@@ -9,9 +9,9 @@
     <include>
       <uri>model://ground_plane</uri>
     </include>
-    <include>
+    <!-- <include>
       <uri>model://asphalt_plane</uri>
-    </include>
+    </include> -->
     <plugin name='wind_plugin' filename='libgazebo_wind_plugin.so'>
       <frameId>base_link</frameId>
       <robotNamespace/>
